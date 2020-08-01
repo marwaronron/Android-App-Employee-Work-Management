@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">CinternalEmp</string>
+    <string name="cinderella_internal">Cinderella Internal</string>
+    <string name="password">Password</string>
+    <string name="full_name">Full_name</string>
+    <string name="button">START</string>
+    <string name="login1">Login</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily_tasks">Daily Tasks</string>
+    <string name="chat">Chat</string>
+    <string name="profile">Profile</string>
+    <string name="request">Request</string>
+    <string name="poll">Polls</string>
+    <string name="notifications">Notifications</string>
+    <string name="projects">Projects</string>
+    <string name="calendar">Calendar</string>
+    <string name="Meetings">Meetings</string>
+    <string name="channel_name"> New Task Notification</string>
+
+
+    <string name="cdescription"> Channel for task notif</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO WEATHER button below to subscribe to the
+        weather topic. Messages sent to the weather topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_weather">Subscribe To Weather</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <!-- [START fcm_default_icon_string] -->
+    <string name="default_notification_channel_name" translatable="true">Weather</string>
+    <!-- [END fcm_default_icon_string] -->
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+    <string name="fcm_message">FCM Message</string>
+
+    <string name="req_1">Report Bugs/issues</string>
+    <string name="req_2">Suggest New Project</string>
+    <string name="req_3">Request API</string>
+    <string name="req_4">Request Office Material</string>
+
+
+</resources>

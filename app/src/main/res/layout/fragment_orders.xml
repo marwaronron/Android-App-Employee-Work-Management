@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.OrdersFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="8dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="5dp"
+            app:contentPadding="16dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginRight="32dp"
+                    android:scaleType="fitCenter"
+                    app:srcCompat="@drawable/purchase1" />
+
+                <TextView
+                    android:id="@+id/titleOrders"
+                    android:layout_width="206dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:text="Clients Orders"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ListView
+            android:id="@+id/lvOrderUnfinished"
+            android:layout_width="match_parent"
+
+            android:layout_height="1000dp"
+            android:layout_weight="1"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+
+        </ListView>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

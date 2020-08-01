@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ProjectsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardBackgroundColor="@color/colorPrimary"
+                app:cardCornerRadius="0dp"
+                app:cardElevation="8dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:cardCornerRadius="3dp"
+                    app:cardElevation="8dp">
+
+                    <EditText
+                        android:id="@+id/mtSearch4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#cc9C27B0"
+                        android:drawableStart="@drawable/searchmini1"
+                        android:drawableLeft="@drawable/calendar"
+                        android:drawablePadding="10dp"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:hint="Search Project By Name.."
+                        android:inputType="textPersonName"
+                        android:paddingLeft="12dp"
+                        android:paddingTop="16dp"
+                        android:paddingRight="12dp"
+                        android:paddingBottom="16dp"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/softgray" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+            <ListView
+                android:id="@+id/lvprojectsAll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:divider="@null"
+                android:dividerHeight="0dp" />
+
+
+        </LinearLayout>
+
+
+</FrameLayout>

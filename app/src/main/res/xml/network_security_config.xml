@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">192.168.1.119</domain>
+        <domain includeSubdomains="true">192.168.1.77</domain>
+        <domain includeSubdomains="true">checkip.amazonaws.com</domain>
+        <domain includeSubdomains="true">api.ipify.org</domain>
+        <domain includeSubdomains="true">192.168.1.61</domain>
+    </domain-config>
+</network-security-config>

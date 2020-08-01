@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="226dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingBottom="16dp"
+    android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center|start"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="10dp">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:contentDescription=""
+            android:src="@drawable/logo3" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="204dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_horizontal"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="start|center_vertical"
+        android:text="Internal App"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="29dp"
+
+        android:layout_gravity="start"
+        android:gravity="start|center_vertical"
+        android:text="Cinderella Travel SL" />
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9C27B0</color>
+    <color name="colorPrimaryDark">#7B1FA2</color>
+    <color name="colorPrimaryLight">#D05CE3</color>
+    <color name="colorPrimaryFading">#CC9C27B0</color>
+    <color name="colorAccent">#3627B0</color>
+    <color name="colorAccentDark">#00007F</color>
+    <color name="colorAccentLight">#7052E3</color>
+    <color name="primarytxt">#212121</color>
+    <color name="secondarytxt">#757575</color>
+    <color name="dividercolor">#BDBDBD</color>
+
+    <color name="PrimaryLighter">#D582E3</color>
+
+    <color name="colorSmallTitle">#FF6699</color>
+    <color name="doing">#00BFFF</color>
+    <color name="green">#40BF40</color>
+    <color name="red">#cc3300</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="darker_gray">#A9A9A9</color>
+    <color name="darkbleu">#3c32a8</color>
+    <color name="orange">#f7b416</color>
+    <color name="darkorange">#ff6600</color>
+    <color name="softgray" >#E6E6E6</color>
+    <color name="correctbleu">#0066CC</color>
+    <color name="otherbleu">#4A99FF</color>
+    <color name="othergreen">#73CE99</color>
+
+
+    <color name="complementary">#3cb027</color>
+    <color name="analogousa">#5727B0</color>
+    <color name="analogousb">#b02780</color>
+    <color name="triadica">#B0273C</color>
+    <color name="triadicb">#b09b27</color>
+    <color name="justcolor">#404040</color>
+    <color name="justcolorblue">#275cb0</color>
+
+    <color name="atodo">#00B0FF</color>
+    <color name="adoing">#F57F17</color>
+    <color name="adone">#8BC34A</color>
+
+
+    <color name="color_department">#4CAF50</color>
+    <color name="color_task">#ee0290</color>
+    <color name="color_holiday">#673AB7</color>
+    <color name="color_request">#3F51B5</color>
+    <color name="color_project">#03A9F4</color>
+    <color name="color_meeting">#FF3D00</color>
+    <color name="color_poll">#FFC107</color>
+    <color name="color_order">#9C27B0</color>
+
+    <color name="notifs_background">#f3e5f5</color>
+
+</resources>

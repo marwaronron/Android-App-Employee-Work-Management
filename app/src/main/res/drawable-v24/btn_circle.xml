@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/colorPrimary" /> <!--background color of box-->
+        </shape>
+    </item>
+
+    <item
+        android:top="-20dp"
+        android:right="-20dp"
+        android:left="-20dp"
+        android:bottom="5dp">
+        <shape>
+            <solid android:color="@android:color/transparent" />
+            <stroke
+                android:width="3dp"
+                android:color="@android:color/transparent" />  <!-- color of stroke -->
+        </shape>
+    </item>
+    <item android:drawable="@drawable/send2" />
+
+</layer-list>

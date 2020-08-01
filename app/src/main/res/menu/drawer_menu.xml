@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_today"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
+
+            />
+        <item
+            android:id="@+id/nav_Calendar"
+            android:icon="@drawable/calendar"
+            android:title="@string/calendar" />
+        <item
+            android:id="@+id/nav_Projects"
+            android:icon="@drawable/projects"
+            android:title="@string/projects" />
+        <item
+            android:id="@+id/nav_mytasks"
+            android:icon="@drawable/task"
+            android:title="My Tasks" />
+        <item
+            android:id="@+id/nav_Orders"
+            android:icon="@drawable/purchase"
+            android:title="Orders" />
+        <item
+            android:id="@+id/nav_Meetings"
+            android:icon="@drawable/meeting2"
+            android:title="@string/Meetings" />
+        <item
+            android:id="@+id/nav_Poll"
+            android:icon="@drawable/poll"
+            android:title="@string/poll" />
+        <item
+            android:id="@+id/nav_Request"
+            android:icon="@drawable/request2"
+            android:title="@string/request" />
+
+        <item
+            android:id="@+id/nav_Chat"
+            android:icon="@drawable/chat"
+            android:title="@string/chat" />
+        <item
+            android:id="@+id/nav_Profile"
+            android:icon="@drawable/profile"
+            android:title="@string/profile" />
+
+
+    </group>
+</menu>

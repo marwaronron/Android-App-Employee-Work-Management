@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "53713393354",
+    "firebase_url": "https://cinternal-project.firebaseio.com",
+    "project_id": "cinternal-project",
+    "storage_bucket": "cinternal-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53713393354:android:ea9a40ff4ed613faad4633",
+        "android_client_info": {
+          "package_name": "com.employee.cinderella.cinternalemp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53713393354-97238atflnb5t1rfcc1eqf3a0bnese55.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzhZfVxlQNFhKVs_e3gefEpRpkq37H0gE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53713393354-97238atflnb5t1rfcc1eqf3a0bnese55.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
